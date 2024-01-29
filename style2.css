@@ -1,0 +1,96 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+margin: 1px;
+display: inline;}
+
+.first {
+  
+    background-color: white;
+    display: flex;
+}
+
+nav {
+    padding-bottom: 20px;
+    padding-left: 140px;
+    margin-top: 15px;
+    padding-left: 15%;
+}
+
+a {
+    margin: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    
+}
+
+.main {
+    position: relative;
+    padding: 100px 0 20px;
+    background-color: orange;
+    text-align: left;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(tvpaleam.png);
+    background-size: cover;
+    background-blend-mode: ;
+
+    
+}
+
+section {
+margin-left: 50px;
+
+}
+
+p {
+   
+    margin-top: auto;
+    color: red;
+    padding-top: 200px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.manpic {
+    float:right;
+    margin-right: 5%;
+    padding-top:5px;
+    image-rendering:pixelated;
+}
+
+
+.footer {
+    background-image: linear-gradient(to bottom, #F94C84, #F1892E);
+    padding: 50px 0 20px;
+} 
+
+.btn {
+    background: #F94C84;
+    background-image: -webkit-linear-gradient(top, #F94C84, #F1892E);
+    background-image: -moz-linear-gradient(top, #F94C84, #F1892E);
+    background-image: -ms-linear-gradient(top, #F94C84, #F1892E);
+    background-image: -o-linear-gradient(top, #F94C84, #F1892E);
+    background-image: linear-gradient(to bottom, #F94C84, #F1892E);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 3px;
+  }
+  
+  .btn:hover {
+    background: black;
+    text-decoration: none;
+  }
